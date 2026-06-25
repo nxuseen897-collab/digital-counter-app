@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.container {
+    text-align: left;
+}
+
+#count {
+    font-size: 70px;
+    margin: 20px 0;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    margin: 5px;
+    background-color: #333;
+    color: white;
+    font-size: 16px;
+}
+
+button:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.positive {
+    color: green;
+}
+
+.negative {
+    color: red;
+}
